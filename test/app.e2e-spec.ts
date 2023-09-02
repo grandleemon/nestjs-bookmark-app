@@ -7,6 +7,7 @@ import {
 
 describe('App e2e', () => {
   let app: INestApplication;
+
   beforeAll(async () => {
     const moduleRef =
       await Test.createTestingModule({
